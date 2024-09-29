@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Enrollment form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Job Enrollment -->
+    <div>
+        <h2>Job Enrollment</h2>
+        <form action="#">
+            <label for="username">Username</label><br>
+            <input type="text" placeholder="Username">
+            <br>
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="Password">
+            <br>
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="Email">
+            <br>
+            <label for="aboutYourself">About Yourself</label><br>
+            <textarea name="bio" id="aboutYourself" rows="3" cols="30" placeholder="Bio"></textarea>
+            <br>
+            <label for="designation">Designation</label>
+            <br>
+            <select name="designation" id="designation">
+                <option value="Software Engineer">Software Engineer</option>
+                <option value="Sr.Software Engineer">Sr.Software Engineer</option>
+                <option value="Tech Lead">Tech Lead</option>
+                <option value="Project Manager">Project Manager</option>
+            </select>
+            <br>
+            <label for="dob">DOB</label>
+            <br>
+            <input type="date" name="dob" id="dob">
+            <br>
+            <label for="yourImage">Your Image</label>
+            <br>
+            <input type="file" name="yourImage" id="yourImage">
+            <br>
+            <label for="mobileNo">Mobile Number</label>
+            <br>
+            <input type="number" name="mobileNo" id="mobileNo">
+            <br>
+            <label for="programmingLevel">Programming Level</label>
+            <br>
+            <input type="checkbox" name="programmingLevel" id="programmingBeginner" value="Beginner"> Beginner
+            <input type="checkbox" name="programmingLevel" id="programmingIntermediate" value="Intermediate"> Intermediate
+            <input type="checkbox" name="programmingLevel" id="programmingProfessional" value="Professional"> Professional
+            <br>
+            <label for="expertiseIn">Expertise In</label>
+            <br>
+            <input type="radio" name="expertiseIn" value="Back End">Back End
+            <input type="radio" name="expertiseIn" value="Front End">Front End
+            <input type="radio" name="expertiseIn" value="Database">Database
+            <input type="radio" name="expertiseIn" value="Full Stack">Full Stack
+            <br>
+            <label for="websiteUrl">Website URL</label>
+            <br>
+            <input type="url" name="websiteUrl" id="websiteUrl" placeholder="Your Website">
+            <br>
+            <input class="button" type="submit" value="Enroll">
+            <input class="button" type="reset">
+        </form>
+
+    </div>
+
+</body>
+
+</html>
